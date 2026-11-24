@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/etat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="#FFEBEE"
+        android:padding="12dp"
+        android:textColor="#B71C1C"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/blocDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fond_carte"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/detailTitre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#111111"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detailVille"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="#555555"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/detailPrix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="#1B5E20"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detailVoyageurs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="#333333"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/detailProprietaire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="#333333"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
